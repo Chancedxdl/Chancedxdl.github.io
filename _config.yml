@@ -255,12 +255,15 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           <div>
             <div>
               <i class="fas fa-eye fa-fw"></i>
+              欢迎来访
             </div>
             <div>
               <i class="fas fa-paw fa-fw"></i>
+              留下你的足迹
             </div>
             <div>
               <i class="fas fa-user-friends fa-fw"></i>
+              重要的你
             </div>
             <script
               src='https://cdn.jsdelivr.net/npm/busuanzi'

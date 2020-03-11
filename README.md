@@ -25,9 +25,10 @@
 <!-- slide vertical=true -->
 
   - 抗疫
-  - 科创
-  - 静心
   - 网课
+  - 静心
+  - 长肉
+  - 学习前端
 
 <!-- slide -->
 
@@ -53,8 +54,6 @@
 - **赵丽颖**
 - **Stephen Curry**
 
-<!-- slide vertical=true -->
-
 <!-- slide -->
 
 ## 给自己一些标签（目标）
@@ -68,20 +67,30 @@
   
   <!-- slide vertical=true -->
 
+- **孩子心性**
+- **不高而黑**
+- **眼睛会亮**
+- **热爱运动**
 - **...**
 
 <!-- slide -->
 
-## 待定
+## 我的理想
 
-待定
+ <!-- slide vertical=true -->
+
+  - **祖国强盛**
+  - **家人健康**
+  - **保研成功**
+  - **永远开心快乐**
+  - **我喜欢的人也喜欢我**
 
 <!-- slide -->
 
 ## 用文字记录生活
 
-- [第一个两年计划](https://www.baidu.com/?tn=80035161_1_dg)
-- [寒假总结](https://www.baidu.com/?tn=80035161_1_dg)
+- [第一个两年计划](https://chanceszd.fun/_posts/2020-03-11-%E7%AC%AC%E4%B8%80%E4%B8%AA%E4%B8%A4%E5%B9%B4%E8%AE%A1%E5%88%92/)
+- [近期规划](https://www.baidu.com/?tn=80035161_1_dg)
 - [认识自己是一件漫长而有意义的事](https://www.baidu.com/?tn=80035161_1_dg)
 
 <!-- slide vertical=true -->

@@ -91,7 +91,7 @@
 
 - [第一个两年计划](https://chanceszd.fun/_posts/2020-03-11-%E7%AC%AC%E4%B8%80%E4%B8%AA%E4%B8%A4%E5%B9%B4%E8%AE%A1%E5%88%92/)
 - [近期规划](https://www.baidu.com/?tn=80035161_1_dg)
-- [认识自己是一件漫长而有意义的事](https://www.baidu.com/?tn=80035161_1_dg)
+- [认识自己是一件漫长而有意义的事](https://chanceszd.fun/_posts/2020-03-11-%E8%AE%A4%E8%AF%86%E8%87%AA%E5%B7%B1%E6%98%AF%E4%B8%80%E4%BB%B6%E6%BC%AB%E9%95%BF%E8%80%8C%E6%9C%89%E6%84%8F%E4%B9%89%E7%9A%84%E4%BA%8B/)
 
 <!-- slide vertical=true -->
 

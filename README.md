@@ -50,9 +50,9 @@
 
 <!-- slide vertical=true -->
 
-- **陈奕迅**
-- **赵丽颖**
-- **Stephen Curry**
+- [陈奕迅](https://music.163.com/#/song?id=35403523&autoplay=true&market=baiduhd)
+- [赵丽颖](https://www.zhihu.com/people/ju-chance/answers)
+- [Stephen Curry](https://www.bilibili.com/video/av91139570?from=search&seid=214791411388734982)
 
 <!-- slide -->
 

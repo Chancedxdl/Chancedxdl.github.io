@@ -512,6 +512,72 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
             plugins: [ RevealMarkdown ]
           });
         "></script>
+    document:
+      append_to_head:
+        - |
+          <meta
+            content="width=device-width, initial-scale=1"
+            name="viewport"
+          />
+        - |
+          <link
+            href="https://cdn.jsdelivr.net/npm/github-markdown-css@4.0.0/github-markdown.min.css"
+            rel="stylesheet"
+          />
+        - | # 仿 github 页面样式；打印时字体换成宋体更美观
+          <style>
+            .markdown-body {
+              box-sizing: border-box;
+              min-width: 200px;
+              max-width: 980px;
+              margin: 0 auto;
+              padding: 45px;
+            }
+            @media (max-width: 767px) {
+              .markdown-body { padding: 15px; }
+            }
+            @media print {
+              h1 { page-break-before: always; }
+              .markdown-body { font-family: "Palatino Linotype","Book Antiqua",Palatino,FreeSerif,serif; }
+            }
+          </style>
+      append_to_section_tag:
+        - key: data-markdown
+        - key: data-separator # 水平展示页分隔符
+          value: <!-- slide -->
+        - key: data-separator-vertical # 垂直展示页分隔符
+          value: <!-- slide vertical=true -->
+        - key: data-background-color
+          value: "White"
+      prepend: |
+        <link
+          rel="stylesheet"
+          href="https://cdn.jsdelivr.net/combine/npm/reveal.js@4.0.0/dist/reveal.min.css,npm/reveal.js@4.0.0/dist/theme/serif.min.css"
+        />
+        <style>
+          .sidebar {
+            line-height: 1.5;
+          }
+          .reveal .slides {
+            text-align: left;
+          }
+          .reveal a {
+            color: #268BD2;
+          }
+        </style>
+        <script
+          defer="defer"
+          src="https://cdn.jsdelivr.net/combine/npm/reveal.js@4.0.0/dist/reveal.min.js,npm/reveal.js@4.0.0/plugin/markdown/markdown.js"
+          onload="
+          document.getElementsByClassName('wrap')[0].classList.add('reveal');
+          Reveal.initialize({
+            height: '100%',
+            hash: true,
+            mouseWheel: true,
+            navigationMode: 'linear',
+            plugins: [ RevealMarkdown ]
+          });
+        "></script>
   page404:
     append_before:
       - | # 腾讯公益

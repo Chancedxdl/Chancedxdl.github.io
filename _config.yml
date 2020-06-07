@@ -26,9 +26,9 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
   default:
     body:
       theme-base: theme-base-07 # 可选的主题色包括08~0f，见 <https://github.com/poole/lanyon>
-      layout-reverse: true # 开启后sidebar在右边，反之左边
-      sidebar-overlay: true # 开启后正文不随sidebar移动而移动
-    append_to_head: # 通过内嵌html的方式引入并定制插件，删改前确定知道自己在做什么。定制插件的方式可以参考这篇文章 <https://wu-kan.cn/_posts/2019-01-18-基于Jekyll搭建个人博客/>
+      layout-reverse: false # 开启后sidebar在右边，反之左边
+      sidebar-overlay: false # 开启后正文不随sidebar移动而移动
+    append_to_head: # 通过内嵌html的方式引入并定制插件，删改前确定知道自己在做什么。定制插件的方式可以参考这篇文章 </_posts/2019-01-18-基于Jekyll搭建个人博客/>
       - | #一些页面优化标签，看不懂可跳过
         <meta
           name="viewport"
@@ -47,49 +47,29 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
       - | # 网站小图标，可换成你自己的图片，改href中的部分即可
         <link
           rel="apple-touch-icon-precomposed"
-          href="assets/image/1.jpg"
+          href="https://gravatar.loli.net/avatar/289efba375d63424de3c49569c446744?s=320"
         />
         <link
           rel="shortcut
           icon"
-          href="assets/image/1.jpg"
+          href="https://gravatar.loli.net/avatar/289efba375d63424de3c49569c446744?s=32"
         />
       - | # 来自lanyon的页面样式，不要改
         <link
           rel="stylesheet"
-          href="https://cdn.jsdelivr.net/combine/gh/poole/lanyon@ac85a3115c094b3e6cb92cc41771e98b443f6c5d/public/css/poole.min.css,gh/poole/lanyon@ac85a3115c094b3e6cb92cc41771e98b443f6c5d/public/css/lanyon.min.css"
+          href="https://cdn.jsdelivr.net/combine/gh/poole/lanyon@v1.1.0/public/css/poole.min.css,gh/poole/lanyon@v1.1.0/public/css/lanyon.min.css"
         />
-      - | #对于lanyon侧边栏按钮的一些补丁，Hide the sidebar checkbox that we toggle with `.sidebar-toggle`；建议不要改
-        <style>
-          .sidebar-checkbox {
-            display: none;
-          }
-          .sidebar-toggle {
-            position: fixed;
-          }
-          .sidebar-toggle:before,
-          .sidebar-toggle:active:before,
-          #sidebar-checkbox:focus~.sidebar-toggle:before,
-          #sidebar-checkbox:checked~.sidebar-toggle:before {
-            background-image: none;
-          }
-        </style>
       - | # 引入fontawesome图标样式
         <link
           rel="stylesheet"
           href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css"
-        />
-
-        <link
-          rel="stylesheet"
-          href="https://cdn.jsdelivr.net/gh/Dreamer-Paul/Pio@2.4/static/pio.min.css"
         />
       - | # 百度爬虫推送，http站点使用 http://push.zhanzhang.baidu.com/push.js
         <script
           src='https://zz.bdstatic.com/linksubmit/push.js'
           defer="defer"
         ></script>
-      - | # 网站背景图片，分竖屏、宽屏；改链接即可，不想用可以把这一项全删掉；要换壁纸图片的话可把url内的部分换成你自己的，比如你放在/assets/image/background.jpg，那就改成url(/assets/image/background.jpg)
+      - | # 网站背景图片，分竖屏、宽屏；改链接即可，不想用可以把这一项全删掉；要换壁纸图片的话可把url内的部分换成你自己的，比如你放在 /assets/image/background.jpg，那就改成 url(/assets/image/background.jpg)
         <style>
           .wrap {
             min-height: 100vh;
@@ -98,11 +78,11 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
             background-position: center top;
             background-repeat: no-repeat;
             background-attachment: fixed;
-            background-image: url(/assets/image/background.jpg);
+            background-image: url(https://Mizuno-Ai.wu-kan.cn/pixiv/74559485_p1.webp);
           }
           @media (min-aspect-ratio: 2400/1850) {
             .wrap {
-              background-image: url(/assets/image/backgroundk.jpg);
+              background-image: url(https://Mizuno-Ai.wu-kan.cn/pixiv/71932901_p0.webp);
             }
           }
         </style>
@@ -116,7 +96,23 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
           h5,
           h6,
           .sidebar {
-            font-family: Menlo, Monaco, "Courier New", STKaiti, monospace;
+            font-family: Menlo, Monaco, "Courier New", Microsoft JhengHei, monospace;
+          }
+        </style>
+      - | #修复点击侧边栏按钮回到顶部的问题
+        <style>
+          .sidebar-checkbox {
+            display: none;
+          }
+          .sidebar-toggle {
+            position: fixed;
+          }
+        </style>
+      - | #修复行内图片默认样式
+        <style>
+          img {
+            display: inline-block;
+            margin: 0;
           }
         </style>
       - | # 侧边栏头像效果
@@ -157,14 +153,14 @@ jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
             height: 4px;
           }
           ::-webkit-scrollbar-thumb {
-            background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+            background-image: linear-gradient(0deg, #00C0FF 0%, #FFCF00 50%, #FC4F4F 100%);
           }
         </style>
-      - | # 如果你会CSS的话，在这里自定义你的页面样式吧~
+      - | # 选中字体颜色
         <style>
-          img {
-            display: inline-block;
-            margin: 0;
+          ::selection {
+            color: #fff;
+            background: #26351c;
           }
         </style>
     sidebar: # 此配置项下是一些关于侧边栏的配置

@@ -1,4 +1,5 @@
 # StitchのHome
+
 或许你也会爱上史迪仔，Welcome to Chance's life.
 
 <!-- slide -->

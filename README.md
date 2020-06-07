@@ -13,7 +13,7 @@
 <!-- slide vertical=true -->
 
 - E-mail:
-  - **[1020293861@qq.com](mailto:i@wu-kan.cn)**
+  - **[1020293861@qq.com]**
 - Github:
   - **Chancedxdl.github** 
 - WeChat: **xgnryyzfzjyChance**

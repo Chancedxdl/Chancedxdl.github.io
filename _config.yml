@@ -89,7 +89,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 }
                 @media (min-aspect-ratio: 2400/1850) {
                   .wrap {
-                    background-image: url(backgroundk.jpg);
+                    background-image: url(/assets/image/backgroundk.jpg);
                   }
                 }
                 .sidebar-overlay #sidebar-checkbox:checked ~ .wrap {
@@ -452,8 +452,8 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               onload='
                 new Valine({
                   "el": document.getElementsByClassName("v")[0],
-                  "appId": "9hABRddSuEkTgqLrt1VSK5B1-gzGzoHsz",
-                  "appKey": "NJ7RwmgrxsF7KDzlqU7YewlL",
+                  "appId": "cYJSKoJaxpQ5JCFBEtWrFuA5-gzGzoHsz",
+                  "appKey": "mwC5IlOxM9TAPp8IDbf1qPMu",
                   "placeholder": "在这里评论吧！",
                   "requiredFields": ["nick","mail"],
                   "visitor": true,

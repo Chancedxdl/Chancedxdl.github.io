@@ -16,7 +16,7 @@
   - **[1020293861@qq.com]**
 - Github:
   - **Chancedxdl.github** 
-- WeChat: **xgnryyzfzjyChance**
+- WeChat: **shidizaiChance**
 - QQ: **1020293861**
 
 <!-- slide -->

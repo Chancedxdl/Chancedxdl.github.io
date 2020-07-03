@@ -6,7 +6,16 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
   暑假ing<br/>
   <a href="mailto:1020203861@qq.com">
     <i class="fas fa-envelope"></i>
+<<<<<<< HEAD
   </a>
+=======
+  </a>
+  
+  			  <link
+  			    rel="stylesheet"
+  			    href="https://cdn.jsdelivr.net/combine/gh/poole/lanyon@v1.1.0/public/css/poole.min.css,gh/poole/lanyon@v1.1.0/public/css/lanyon.min.css,gh/poole/lanyon@v1.1.0/public/css/syntax.min.css"
+  			  />
+>>>>>>> parent of 2ab14ed... Update _config.yml
   <a href="https://github.com/Chancedxdl">
     <i class="fab fa-github"></i>
   </a>

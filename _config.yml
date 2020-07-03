@@ -10,7 +10,7 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
   
   			  <link
   			    rel="stylesheet"
-  			    href="https://cdn.jsdelivr.net/combine/gh/poole/lanyon@v1.1.0/public/css/poole.min.css,gh/poole/lanyon@v1.1.0/public/css/lanyon.min.css,gh/poole/lanyon@v1.1.0/public/css/syntax.min.css"
+  			    href="./newcss.css"
   			  />
   <a href="https://github.com/Chancedxdl">
     <i class="fab fa-github"></i>

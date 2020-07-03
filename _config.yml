@@ -7,6 +7,11 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
   <a href="mailto:1020203861@qq.com">
     <i class="fas fa-envelope"></i>
   </a>
+  
+  			  <link
+  			    rel="stylesheet"
+  			    href="https://cdn.jsdelivr.net/combine/gh/poole/lanyon@v1.1.0/public/css/poole.min.css,gh/poole/lanyon@v1.1.0/public/css/lanyon.min.css,gh/poole/lanyon@v1.1.0/public/css/syntax.min.css"
+  			  />
   <a href="https://github.com/Chancedxdl">
     <i class="fab fa-github"></i>
   </a>
@@ -48,6 +53,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 title="RSS"
                 type="application/rss+xml"
               />
+			  
             - | # 网站小图标，可换成你自己的图片，改href中的部分即可
               <link
                 rel="apple-touch-icon-precomposed"
